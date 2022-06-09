@@ -1,0 +1,61 @@
+/* inter-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v11-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v11-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body {
+    width:1920px;
+    height:1080px;
+    background-color: #575478;
+}
+
+.main {
+    font-family: "Inter";
+}
+.logo {
+   margin-top: 40px;
+   margin-left: 200px;
+}
+.content {
+    margin-top: 699px;
+    margin-left: 200px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    
+}
+h1 { 
+	color:rgba(255, 255, 255, 0.5);
+	text-align:left;
+	font-size:18px;
+}
+.content p {
+    color: white;
+	text-align:left;
+	font-size:48px;
+    width:1130px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.Contacts { 
+	width:1520px;
+}
+.line { 
+	border:1px solid rgba(255, 255, 255, 0.25);
+	width:1520px;
+    height: 0px;
+    margin-top:40px;
+}
+ .list { 
+        margin-bottom:40px;
+      }
+.list span{ 
+          color:rgba(255, 255, 255, 1);
+          margin-right:60px;
+          font-size:18px;
+      }
